@@ -1,0 +1,2 @@
+include ogtha/ogtha_default_parameters.json
+include ogtha/data/002_IFPRI_SAM_IDN_2018_SAM.csv
