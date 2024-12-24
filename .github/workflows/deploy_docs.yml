@@ -14,7 +14,7 @@ on:
       - './ogtha/**.py'
 jobs:
   build-and-deploy:
-    if: github.repository == 'EAPD-DRB/OG_THA'
+    if: github.repository == 'EAPD-DRB/OG-THA'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

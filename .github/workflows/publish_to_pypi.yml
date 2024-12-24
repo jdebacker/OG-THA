@@ -8,7 +8,7 @@ on:
 jobs:
   deploy:
     name: Publish to PyPI
-    if: github.repository == 'EAPD-DRB/OG_THA'
+    if: github.repository == 'EAPD-DRB/OG-THA'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
