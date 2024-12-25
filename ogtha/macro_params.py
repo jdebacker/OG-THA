@@ -1,7 +1,7 @@
 """
 This module uses data from World Bank WDI, World Bank Quarterly Public
 Sector Debt (QPSD) database, the IMF, and UN ILO to find values for
-parameters for the OG_THA model that rely on macro data for calibration.
+parameters for the OG-THA model that rely on macro data for calibration.
 """
 
 # imports

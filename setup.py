@@ -12,10 +12,10 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     long_description=longdesc,
     keywords="PHL Philippines calibration of large scale overlapping generations model of fiscal policy",
-    url="https://github.com/EAPD-DRB/OG_THA/",
-    download_url="https://github.com/EAPD-DRB/OG_THA/",
+    url="https://github.com/EAPD-DRB/OG-THA/",
+    download_url="https://github.com/EAPD-DRB/OG-THA/",
     project_urls={
-        "Issue Tracker": "https://github.com/EAPD-DRB/OG_THA/issues",
+        "Issue Tracker": "https://github.com/EAPD-DRB/OG-THA/issues",
     },
     packages=["ogtha"],
     package_data={"ogtha": ["ogtha_default_parameters.json", "data/*"]},

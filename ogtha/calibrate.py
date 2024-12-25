@@ -9,7 +9,7 @@ UN_COUNTRY_CODE = "764"
 
 
 class Calibration:
-    """OG_THA calibration class"""
+    """OG-THA calibration class"""
 
     def __init__(
         self,
