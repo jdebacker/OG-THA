@@ -70,7 +70,9 @@ def get_macro_params(
         wb_data_a = wb_data_a.set_index("year")
         # Compute macro parameters from WB data
         # Latest from WB WDI data is 2012, so use:
-        macro_parameters["initial_debt_ratio"] = 0.6096 #https://fred.stlouisfed.org/series/DEBTTLTHA188A
+        macro_parameters["initial_debt_ratio"] = (
+            0.6096  # https://fred.stlouisfed.org/series/DEBTTLTHA188A
+        )
         macro_parameters["initial_foreign_debt_ratio"] = (
             pd.Series(
                 wb_data_a[r"External debt stocks (% of GNI)"]
