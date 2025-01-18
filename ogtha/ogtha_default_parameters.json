@@ -788,7 +788,7 @@
     "tG1": 20,
     "tG2": 256,
     "alpha_T": [
-        0.05 
+        0.05
     ],
     "alpha_G": [
         0.215,
@@ -812,7 +812,7 @@
     ],
     "cit_rate": [
         [
-            0.20 
+            0.20
         ]
     ],
     "c_corp_share_of_assets": 0.7,
@@ -826,7 +826,7 @@
     ],
     "tau_c": [
         [
-            0.07 
+            0.07
         ]
     ],
     "delta_tau_annual": [       [
@@ -101429,25 +101429,25 @@
     "etr_params": [
         [
             [
-                0.2 
+                0.2
             ]
         ]
     ],
     "mtrx_params": [
         [
             [
-                0.2 
+                0.2
             ]
         ]
     ],
     "mtry_params": [
         [
             [
-                0.2  
+                0.2
             ]
         ]
     ],
-    "mean_income_data": 307195.71,
+    "mean_income_data": 1170000,
     "frac_tax_payroll": [
         0.0
     ]
