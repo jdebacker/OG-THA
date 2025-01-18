@@ -14,12 +14,15 @@ The government sector influences households through two terms in the household b
   &\quad\forall j,t\quad\text{and}\quad s\geq E+1 \quad\text{where}\quad b_{j,E+1,t}=0\quad\forall j,t
 ```
 
-The total tax function, $T_{s,t}$, is a function of personal income taxes, taxes on bequests, and wealth taxes.  In the default calibration, wealth and bequest taxes are set to zero in `OG_THA`. Personal income taxes are modeled as linear taxes and set to average effective and marginal tax rates.  The [OG-Core documentation](https://pslmodels.github.io/OG-Core/content/theory/government.html#taxes) details more detailed ways to match the progressivity of the tax system.  But given limited data for Philippines, we start with simple linear tax rates of 12% for effective tax rates on personal income, a 18% marginal tax rate on capital income, and a 18\% marginal tax rate on labor income.
+The total tax function, $T_{s,t}$, is a function of personal income taxes, taxes on bequests, and wealth taxes.  In the default calibration, wealth and bequest taxes are set to zero in `OG_THA`. Personal income taxes are modeled as linear taxes and set to average effective and marginal tax rates.  The [OG-Core documentation](https://pslmodels.github.io/OG-Core/content/theory/government.html#taxes) details more detailed ways to match the progressivity of the tax system.  But given limited data for Thailand, we start with simple linear tax rates of 20% for effective tax rates on personal income, a 20% marginal tax rate on capital income, and a 20\% marginal tax rate on labor income.
+
+We set the payroll tax rate, $\tau^p$, to 0.10, reflecting the 5% rate applied to the employee and the 5% rate applied to the employer ([source](https://www.workneticsglobal.com/insights/payroll-laws-in-thailand-what-your-company-needs-to-know)).  The payroll tax is levied on labor income, $w_t e_{j,s} n_{j,s,t}$, and is included in the total tax liability function, $T_{s,t}$.
+
 
 ## Corporate income taxes
 
-`OG_THA` uses the top statutory rate of 25% for the corporate income tax rate.
+`OG_THA` uses the top statutory rate of 20% for the corporate income tax rate ([source](https://www.rd.go.th/english/6044.html)).
 
 ## Value-added taxes
 
-A value-added tax rate of 12% is applied with the `tau_c` parameter.
+A value-added tax rate of 7% is applied with the `tau_c` parameter ([source](https://www.rd.go.th/english/6043.html)).
